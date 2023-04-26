@@ -1,0 +1,13 @@
+name = "QuadraticAberrationCorrector"
+uuid = "9c54a951-505b-4f1b-abf9-646e3f50e8ce"
+authors = ["Shuhei Yoshida <yshuhei@ele.kindai.ac.jp> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
