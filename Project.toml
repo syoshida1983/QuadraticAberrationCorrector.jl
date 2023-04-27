@@ -1,7 +1,7 @@
 name = "QuadraticAberrationCorrector"
 uuid = "9c54a951-505b-4f1b-abf9-646e3f50e8ce"
 authors = ["Shuhei Yoshida <yshuhei@ele.kindai.ac.jp> and contributors"]
-version = "1.0.0-DEV"
+version = "0.1.0"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
