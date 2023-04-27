@@ -4,7 +4,7 @@
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://syoshida1983.github.io/QuadraticAberrationCorrector.jl/dev/)
 [![Build Status](https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/actions/workflows/CI.yml?query=branch%3Amaster)
 
-This package provides the functions to correct quadratic phase aberration. It is easy to use. When the following code is executed, the corrected phase by the least squares algorithm is stored in ψ.
+This package provides the functions to correct quadratic phase aberration. It is easy to use. When the following code is executed, the phase `ϕ` is corrected by the least squares algorithm and stored in `ψ`.
 
 ```julia
 ψ = CorrectAberration(ϕ)
