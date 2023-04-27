@@ -16,11 +16,11 @@ When using the weighted least square algorithm, use the following function.
 ψ = WeightedCorrectAberration(ϕ, 10, 10)
 ```
 
-![Original phase](https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/phase.svg)
-![Aberration](https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/aberration.svg)
-![Aberrated phase](https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/aberrated.svg)
-![Least squares corrected phase](https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/least-squares.svg)
-![Weighted least squares corrected phase](https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/weighted-least-squares.svg)
+<img src="https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/phase.svg" width="240px">
+<img src="https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/aberration.svg" width="240px">
+<img src="https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/aberrated.svg" width="240px">
+<img src="https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/least-squares.svg" width="240px">
+<img src="https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/weighted-least-squares.svg" width="240px">
 
 For more information on the algorithm, please refer to the following references.
 
