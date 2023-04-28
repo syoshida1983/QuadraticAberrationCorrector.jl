@@ -45,7 +45,7 @@ end
 """
     CorrectAberration(ϕ)
 
-Returns the corrected phase map of `ϕ` using the least squares algorithm.
+Return the corrected phase map of `ϕ` using the least squares algorithm.
 Argument `ϕ` must be an unwrapped phase.
 """
 function CorrectAberration(ϕ)
@@ -87,7 +87,7 @@ end
 """
     WeightedCorrectAberration(ϕ, ρx, ρy)
 
-Returns the corrected phase map of `ϕ` using the weighted least squares algorithm.
+Return the corrected phase map of `ϕ` using the weighted least squares algorithm.
 Argument `ρx` and `ρy` are division numbers. The input phase map `ϕ` is divided into a ``\\rho_{x}\\times\\rho_{y}`` grid to obtain a weighted matrix based on the maximum-minimum-average-standard deviation (MMASD) metric.
 See the following reference for details.
 
