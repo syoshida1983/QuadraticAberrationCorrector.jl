@@ -24,6 +24,6 @@ When using the weighted least square algorithm, use the following function.
     <img src="https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/blob/images/weighted-least-squares.svg" width="400px">
 </p>
 
-For more information on the algorithm, please refer to the following references.
+For more information on the algorithm, please refer to the following reference.
 
 > [Zhenkai Chen, Wenjing Zhou, Lian Duan, Hongbo Zhang, Huadong Zheng, Xinxing Xia, Yingjie Yu, and Ting-chung Poon, "Automatic elimination of phase aberrations in digital holography based on Gaussian 1σ- criterion and histogram segmentation," Opt. Express **31**, 13627-13639 (2023)](https://doi.org/10.1364/OE.486890)
