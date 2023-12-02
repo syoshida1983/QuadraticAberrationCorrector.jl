@@ -4,16 +4,41 @@
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://syoshida1983.github.io/QuadraticAberrationCorrector.jl/dev/)
 [![Build Status](https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/syoshida1983/QuadraticAberrationCorrector.jl/actions/workflows/CI.yml?query=branch%3Amaster)
 
-This package provides the functions to correct quadratic phase aberration. It is easy to use. When the following code is executed, the phase `ϕ` is corrected by the least squares algorithm and stored in `ψ`.
+This package provides the functions to correct quadratic phase aberration.
+
+# Installation
+
+To install this package, open the Julia REPL and run
 
 ```julia
-ψ = CorrectAberration(ϕ)
+julia> ]add QuadraticAberrationCorrector
+```
+
+or
+
+```julia
+julia> using Pkg
+julia> Pkg.add("QuadraticAberrationCorrector")
+```
+
+# Usage
+
+Import the package first.
+
+```julia
+julia> using QuadraticAberrationCorrector
+```
+
+When the following code is executed, the phase `ϕ` is corrected by the least squares algorithm and stored in `ψ`.
+
+```julia
+julia> ψ = CorrectAberration(ϕ)
 ```
 
 When using the weighted least square algorithm, use the following function.
 
 ```julia
-ψ = WeightedCorrectAberration(ϕ, 10, 10)
+julia> ψ = WeightedCorrectAberration(ϕ, 10, 10)
 ```
 
 <p>
